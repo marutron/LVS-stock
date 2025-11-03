@@ -1,0 +1,30 @@
+#Project Attributes.
+#TunerStudio by EFI Analytics, Inc
+#Last Saved on: Sat Nov 01 22:16:15 GMT+04:00 2025
+#Sat Nov 01 22:16:15 GMT+04:00 2025
+CommSettingBaud\ Rate=115200
+CommSettingCom\ Port=
+CommSettingMSCommDriver.RS232\ Serial\ Interface2nd\ Com\ Port=
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyACM0
+CommSettingMSCommDriver.controllerInterfaceId=RS232 Serial Interface
+CommSettingmarat-thinkpadCommDriver.RS232\ Serial\ Interface2nd\ Com\ Port=
+CommSettingmarat-thinkpadCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
+CommSettingmarat-thinkpadCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
+CommSettingmarat-thinkpadCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyACM0
+CommSettingmarat-thinkpadCommDriver.controllerInterfaceId=RS232 Serial Interface
+baudRate=115200
+canId=-1
+commPort=
+dashBoardFile=/dashboard//dashboard.dash
+ecuConfigFile=mainController.ini
+ecuSettings=AFR|
+ecuUid=f16b2d01-e69e-44e9-859d-90e61f29c1a9
+firmwareDescription=rusEFI v20230726@64196
+lastDisplayedTuneFile=
+projectDescription=
+projectName=LVS-stock
+selectedComDriver=Multi Interface MegaSquirt Driver
+useCommonDashboardDir=false
+useCommonTuneViewDir=false
