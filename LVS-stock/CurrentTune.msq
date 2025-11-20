@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.3.00 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Nov 03 20:35:54 GMT+04:00 2025"/>
+    <bibliography author="TunerStudio MS Lite! 3.3.00 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Nov 18 21:19:57 GMT+04:00 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20230726%4064196" nPages="1" signature="rusEFI master.2023.07.26.mre_f4.3003025436"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>
-        <pcVariable digits="0" name="tuneCrcPcVariable">20982.0</pcVariable>
+        <pcVariable digits="0" name="tuneCrcPcVariable">4598.0</pcVariable>
         <pcVariable cols="1" digits="1" name="wueAfrTargetOffset" rows="16" units=":1">
          -1.5 
          -1.4 
@@ -143,8 +143,8 @@
         <constant name="cltSensorPulldown">"false"</constant>
         <constant name="iatSensorPulldown">"false"</constant>
         <constant name="allowIdenticalPps">"false"</constant>
-        <constant digits="0" name="tpsMin" units="ADC">850.0</constant>
-        <constant digits="0" name="tpsMax" units="ADC">64.0</constant>
+        <constant digits="0" name="tpsMin" units="ADC">88.0</constant>
+        <constant digits="0" name="tpsMax" units="ADC">923.0</constant>
         <constant digits="0" name="tpsErrorDetectionTooLow" units="%">-10.0</constant>
         <constant digits="0" name="tpsErrorDetectionTooHigh" units="%">110.0</constant>
         <constant digits="1" name="cranking_baseFuel" units="mg">27.0</constant>
@@ -232,7 +232,7 @@
         <constant digits="0" name="gapTrackingLengthOverride" units="count">0.0</constant>
         <constant digits="0" name="maxIdleVss" units="kph">0.0</constant>
         <constant digits="0" name="minOilPressureAfterStart" units="kPa">0.0</constant>
-        <constant name="timingMode">"dynamic"</constant>
+        <constant name="timingMode">"fixed"</constant>
         <constant digits="0" name="fixedModeTiming" units="RPM">50.0</constant>
         <constant digits="0" name="globalTriggerAngleOffset" units="deg btdc">0.0</constant>
         <constant digits="2" name="analogInputDividerCoefficient" units="coef">1.68</constant>
@@ -244,7 +244,7 @@
         <constant digits="2" name="canSleepPeriodMs" units="ms">50.0</constant>
         <constant digits="0" name="unused440">0.0</constant>
         <constant digits="0" name="byFirmwareVersion" units="index">2.0230726E7</constant>
-        <constant name="tps1_1AdcChannel">"20 - AN volt 5"</constant>
+        <constant name="tps1_1AdcChannel">"26 - AN volt 2"</constant>
         <constant name="vbattAdcChannel">"Battery Sense"</constant>
         <constant name="fuelLevelSensor">"NONE"</constant>
         <constant name="tps2_1AdcChannel">"NONE"</constant>
@@ -339,7 +339,7 @@
         <constant name="mc33972_cs">"NONE"</constant>
         <constant name="mc33972_csPinMode">"default"</constant>
         <constant name="auxFastSensor1_adcChannel">"NONE"</constant>
-        <constant name="tps1_2AdcChannel">"26 - AN volt 2"</constant>
+        <constant name="tps1_2AdcChannel">"20 - AN volt 5"</constant>
         <constant name="tps2_2AdcChannel">"NONE"</constant>
         <constant name="throttlePedalPositionSecondAdcChannel">"30 - AN volt 7"</constant>
         <constant cols="1" digits="0" name="fuelLevelValues" rows="8" units="%">
@@ -411,7 +411,7 @@
         <constant name="useIdleTimingPidControl">"false"</constant>
         <constant name="disableEtbWhenEngineStopped">"false"</constant>
         <constant name="is_enabled_spi_4">"false"</constant>
-        <constant name="pauseEtbControl">"false"</constant>
+        <constant name="pauseEtbControl">"true"</constant>
         <constant name="alignEngineSnifferAtTDC">"false"</constant>
         <constant name="verboseKLine">"false"</constant>
         <constant name="idleIncrementalPidCic">"false"</constant>
@@ -484,8 +484,8 @@
         <constant digits="0" name="mapMinBufferLength" units="count">1.0</constant>
         <constant digits="0" name="idlePidDeactivationTpsThreshold" units="%">5.0</constant>
         <constant digits="0" name="stepperParkingExtraSteps" units="%">0.0</constant>
-        <constant digits="0" name="tps1SecondaryMin" units="ADC">88.0</constant>
-        <constant digits="0" name="tps1SecondaryMax" units="ADC">921.0</constant>
+        <constant digits="0" name="tps1SecondaryMin" units="ADC">899.0</constant>
+        <constant digits="0" name="tps1SecondaryMax" units="ADC">64.0</constant>
         <constant digits="0" name="antiLagRpmTreshold" units="rpm">0.0</constant>
         <constant digits="0" name="startCrankingDuration" units="Seconds">3.0</constant>
         <constant name="triggerErrorPin">"NONE"</constant>
@@ -514,7 +514,7 @@
         <constant name="spi3sckPin">"PC10"</constant>
         <constant name="cdmInputPin">"NONE"</constant>
         <constant name="consoleUartDevice">"Off"</constant>
-        <constant name="sensorChartMode">"none"</constant>
+        <constant name="sensorChartMode">"trigger"</constant>
         <constant name="mafSensorType">"v1"</constant>
         <constant name="clutchUpPinInverted">"false"</constant>
         <constant name="clutchDownPinInverted">"false"</constant>
@@ -698,7 +698,7 @@
         <constant name="boardUse2stepPullDown">"With Pull Up"</constant>
         <constant name="tachPulseDurationAsDutyCycle">"Duty cycle"</constant>
         <constant name="isAlternatorControlEnabled">"false"</constant>
-        <constant name="invertPrimaryTriggerSignal">"false"</constant>
+        <constant name="invertPrimaryTriggerSignal">"true"</constant>
         <constant name="invertSecondaryTriggerSignal">"false"</constant>
         <constant name="cutFuelOnHardLimit">"yes"</constant>
         <constant name="cutSparkOnHardLimit">"yes"</constant>
@@ -722,7 +722,7 @@
         <constant digits="0" name="etbNeutralPosition" units="%">0.0</constant>
         <constant name="idleMode">"Open Loop"</constant>
         <constant name="isInjectionEnabled">"true"</constant>
-        <constant name="isIgnitionEnabled">"true"</constant>
+        <constant name="isIgnitionEnabled">"false"</constant>
         <constant name="isCylinderCleanupEnabled">"true"</constant>
         <constant name="complexWallModel">"Basic (constants)"</constant>
         <constant name="alwaysInstantRpm">"false"</constant>
@@ -776,9 +776,9 @@
         <constant digits="0" name="alternatorControl_periodMs" units="ms">100.0</constant>
         <constant digits="0" name="alternatorControl_minValue">0.0</constant>
         <constant digits="0" name="alternatorControl_maxValue">90.0</constant>
-        <constant digits="4" name="etb_pFactor">6.232284</constant>
-        <constant digits="4" name="etb_iFactor">78.95309</constant>
-        <constant digits="4" name="etb_dFactor">0.082871795</constant>
+        <constant digits="4" name="etb_pFactor">6.163936</constant>
+        <constant digits="4" name="etb_iFactor">66.98325</constant>
+        <constant digits="4" name="etb_dFactor">0.08905747</constant>
         <constant digits="0" name="etb_offset">0.0</constant>
         <constant digits="0" name="etb_periodMs" units="ms">0.0</constant>
         <constant digits="0" name="etb_minValue">-100.0</constant>
@@ -811,8 +811,8 @@
         <constant name="auxValves2">"NONE"</constant>
         <constant name="tcuUpshiftButtonPin">"NONE"</constant>
         <constant name="tcuDownshiftButtonPin">"NONE"</constant>
-        <constant digits="2" name="throttlePedalUpVoltage" units="voltage">0.7565918</constant>
-        <constant digits="2" name="throttlePedalWOTVoltage" units="voltage">4.3</constant>
+        <constant digits="2" name="throttlePedalUpVoltage" units="voltage">1.3264816</constant>
+        <constant digits="2" name="throttlePedalWOTVoltage" units="voltage">4.42</constant>
         <constant digits="0" name="startUpFuelPumpDuration" units="seconds">4.0</constant>
         <constant digits="0" name="idlePidRpmDeadZone" units="RPM">50.0</constant>
         <constant digits="1" name="targetVBatt" units="Volts">14.0</constant>
@@ -837,8 +837,8 @@
         <constant digits="1" name="tpsDecelEnleanmentThreshold" units="roc">0.0</constant>
         <constant digits="2" name="tpsDecelEnleanmentMultiplier" units="coeff">0.0</constant>
         <constant digits="0" name="auxSerialSpeed" units="BPs">0.0</constant>
-        <constant digits="2" name="throttlePedalSecondaryUpVoltage" units="voltage">0.3</constant>
-        <constant digits="2" name="throttlePedalSecondaryWOTVoltage" units="voltage">2.19</constant>
+        <constant digits="2" name="throttlePedalSecondaryUpVoltage" units="voltage">0.9809389</constant>
+        <constant digits="2" name="throttlePedalSecondaryWOTVoltage" units="voltage">2.53</constant>
         <constant name="canBaudRate">"500kbps"</constant>
         <constant name="veOverrideMode">"None"</constant>
         <constant name="can2BaudRate">"500kbps"</constant>
@@ -1133,7 +1133,7 @@
         <constant name="tle6240spiDevice">"Off"</constant>
         <constant digits="1" name="stoichRatioPrimary" units=":1">14.7</constant>
         <constant digits="0" name="idlerpmpid_iTermMax">20.0</constant>
-        <constant digits="0" name="etbIdleThrottleRange" units="%">15.0</constant>
+        <constant digits="0" name="etbIdleThrottleRange" units="%">10.0</constant>
         <constant digits="0" name="cylinderBankSelect1">1.0</constant>
         <constant digits="0" name="cylinderBankSelect2">1.0</constant>
         <constant digits="0" name="cylinderBankSelect3">1.0</constant>
@@ -1636,7 +1636,7 @@
       </constant>
         <constant name="gearControllerMode">"None"</constant>
         <constant name="transmissionControllerMode">"None"</constant>
-        <constant name="auxLinear1_hwChannel">"NONE"</constant>
+        <constant name="auxLinear1_hwChannel">"24 - AN temp 3"</constant>
         <constant digits="2" name="auxLinear1_v1" units="volts">0.0</constant>
         <constant digits="2" name="auxLinear1_value1">0.0</constant>
         <constant digits="2" name="auxLinear1_v2" units="volts">0.0</constant>
