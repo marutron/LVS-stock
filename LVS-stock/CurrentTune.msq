@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.3.00 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Nov 18 21:19:57 GMT+04:00 2025"/>
+    <bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Nov 23 20:37:12 GMT+04:00 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20230726%4064196" nPages="1" signature="rusEFI master.2023.07.26.mre_f4.3003025436"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>
-        <pcVariable digits="0" name="tuneCrcPcVariable">4598.0</pcVariable>
+        <pcVariable digits="0" name="tuneCrcPcVariable">15639.0</pcVariable>
         <pcVariable cols="1" digits="1" name="wueAfrTargetOffset" rows="16" units=":1">
          -1.5 
          -1.4 
@@ -67,7 +67,7 @@
         <constant name="engineType">"MINIMAL_PINS"</constant>
         <constant digits="0" name="sensorSnifferRpmThreshold" units="RPM">2500.0</constant>
         <constant digits="0" name="launchRpm" units="rpm">3000.0</constant>
-        <constant digits="0" name="rpmHardLimit" units="rpm">7000.0</constant>
+        <constant digits="0" name="rpmHardLimit" units="rpm">6000.0</constant>
         <constant digits="0" name="engineSnifferRpmThreshold" units="RPM">2500.0</constant>
         <constant digits="0" name="multisparkMaxRpm" units="rpm">1500.0</constant>
         <constant digits="0" name="maxAcRpm" units="rpm">5000.0</constant>
@@ -93,7 +93,7 @@
       </constant>
         <constant digits="0" name="multisparkMaxSparkingAngle" units="deg">30.0</constant>
         <constant digits="0" name="multisparkMaxExtraSparkCount" units="count">2.0</constant>
-        <constant digits="2" name="injector_flow" units="cm3/min">200.0</constant>
+        <constant digits="2" name="injector_flow" units="cm3/min">220.0</constant>
         <constant cols="1" digits="2" name="injector_battLagCorrBins" rows="8" units="volts">
          6.0 
          8.0 
@@ -192,9 +192,9 @@
          50.0 
          50.0 
       </constant>
-        <constant digits="2" name="map_sensor_lowValue" units="kpa">0.0</constant>
-        <constant digits="2" name="map_sensor_highValue" units="kpa">0.0</constant>
-        <constant name="map_sensor_type">"GM 1 Bar"</constant>
+        <constant digits="2" name="map_sensor_lowValue" units="kpa">10.0</constant>
+        <constant digits="2" name="map_sensor_highValue" units="kpa">120.0</constant>
+        <constant name="map_sensor_type">"Custom"</constant>
         <constant name="map_sensor_hwChannel">"27 - AN volt 1"</constant>
         <constant digits="1" name="clt_tempC_1" units="*C">-40.0</constant>
         <constant digits="1" name="clt_tempC_2" units="*C">0.0</constant>
@@ -232,9 +232,9 @@
         <constant digits="0" name="gapTrackingLengthOverride" units="count">0.0</constant>
         <constant digits="0" name="maxIdleVss" units="kph">0.0</constant>
         <constant digits="0" name="minOilPressureAfterStart" units="kPa">0.0</constant>
-        <constant name="timingMode">"fixed"</constant>
+        <constant name="timingMode">"dynamic"</constant>
         <constant digits="0" name="fixedModeTiming" units="RPM">50.0</constant>
-        <constant digits="0" name="globalTriggerAngleOffset" units="deg btdc">0.0</constant>
+        <constant digits="0" name="globalTriggerAngleOffset" units="deg btdc">114.0</constant>
         <constant digits="2" name="analogInputDividerCoefficient" units="coef">1.68</constant>
         <constant digits="2" name="vbattDividerCoeff" units="coef">8.232</constant>
         <constant digits="0" name="fanOnTemperature" units="deg C">95.0</constant>
@@ -283,7 +283,7 @@
         <constant name="idle_stepperDirectionPin">"NONE"</constant>
         <constant name="idle_stepperStepPin">"NONE"</constant>
         <constant name="idle_solenoidPinMode">"default"</constant>
-        <constant digits="0" name="manIdlePosition" units="%">50.0</constant>
+        <constant digits="0" name="manIdlePosition" units="%">37.0</constant>
         <constant digits="1" name="knockRetardAggression" units="%">0.0</constant>
         <constant digits="1" name="knockRetardReapplyRate" units="deg/s">0.0</constant>
         <constant name="engineSyncCam">"Intake First Bank"</constant>
@@ -325,7 +325,7 @@
         <constant name="fanPinMode">"default"</constant>
         <constant name="fanPin">"34 - GP Out 2"</constant>
         <constant name="clutchDownPin">"NONE"</constant>
-        <constant name="alternatorControlPin">"NONE"</constant>
+        <constant name="alternatorControlPin">"13 - GP Out 6"</constant>
         <constant name="alternatorControlPinMode">"default"</constant>
         <constant name="clutchDownPinMode">"PULLUP"</constant>
         <constant name="digitalPotentiometerChipSelect1">"NONE"</constant>
@@ -392,7 +392,7 @@
         <constant name="rusefiVerbose29b">"11 bit"</constant>
         <constant name="rethrowHardFault">"false"</constant>
         <constant name="isHip9011Enabled">"false"</constant>
-        <constant name="isVerboseAlternator">"false"</constant>
+        <constant name="isVerboseAlternator">"true"</constant>
         <constant name="verboseQuad">"false"</constant>
         <constant name="useStepperIdle">"false"</constant>
         <constant name="enabledStep1Limiter">"false"</constant>
@@ -409,9 +409,9 @@
         <constant name="useIacTableForCoasting">"false"</constant>
         <constant name="useNoiselessTriggerDecoder">"false"</constant>
         <constant name="useIdleTimingPidControl">"false"</constant>
-        <constant name="disableEtbWhenEngineStopped">"false"</constant>
+        <constant name="disableEtbWhenEngineStopped">"true"</constant>
         <constant name="is_enabled_spi_4">"false"</constant>
-        <constant name="pauseEtbControl">"true"</constant>
+        <constant name="pauseEtbControl">"false"</constant>
         <constant name="alignEngineSnifferAtTDC">"false"</constant>
         <constant name="verboseKLine">"false"</constant>
         <constant name="idleIncrementalPidCic">"false"</constant>
@@ -691,7 +691,7 @@
         <constant name="boardUseTempPullUp">"Piggyback Mode"</constant>
         <constant name="yesUnderstandLocking">"no"</constant>
         <constant name="silentTriggerError">"true"</constant>
-        <constant name="useLinearCltSensor">"true"</constant>
+        <constant name="useLinearCltSensor">"false"</constant>
         <constant name="canReadEnabled">"true"</constant>
         <constant name="canWriteEnabled">"true"</constant>
         <constant name="useLinearIatSensor">"true"</constant>
@@ -722,7 +722,7 @@
         <constant digits="0" name="etbNeutralPosition" units="%">0.0</constant>
         <constant name="idleMode">"Open Loop"</constant>
         <constant name="isInjectionEnabled">"true"</constant>
-        <constant name="isIgnitionEnabled">"false"</constant>
+        <constant name="isIgnitionEnabled">"true"</constant>
         <constant name="isCylinderCleanupEnabled">"true"</constant>
         <constant name="complexWallModel">"Basic (constants)"</constant>
         <constant name="alwaysInstantRpm">"false"</constant>
@@ -815,7 +815,7 @@
         <constant digits="2" name="throttlePedalWOTVoltage" units="voltage">4.42</constant>
         <constant digits="0" name="startUpFuelPumpDuration" units="seconds">4.0</constant>
         <constant digits="0" name="idlePidRpmDeadZone" units="RPM">50.0</constant>
-        <constant digits="1" name="targetVBatt" units="Volts">14.0</constant>
+        <constant digits="1" name="targetVBatt" units="Volts">13.8</constant>
         <constant digits="2" name="alternatorOffAboveTps" units="%">120.0</constant>
         <constant digits="0" name="afterCrankingIACtaperDuration" units="cycles">200.0</constant>
         <constant digits="0" name="iacByTpsTaper" units="percent">2.0</constant>
@@ -905,9 +905,9 @@
          0.0 
          0.0 
       </constant>
-        <constant digits="2" name="fixedTiming" units="deg">0.0</constant>
-        <constant digits="2" name="mapLowValueVoltage" units="v">0.0</constant>
-        <constant digits="2" name="mapHighValueVoltage" units="v">5.0</constant>
+        <constant digits="2" name="fixedTiming" units="deg">10.0</constant>
+        <constant digits="2" name="mapLowValueVoltage" units="v">0.3</constant>
+        <constant digits="2" name="mapHighValueVoltage" units="v">4.9</constant>
         <constant digits="2" name="egoValueShift" units="value">0.0</constant>
         <constant name="vvtPins1">"NONE"</constant>
         <constant name="vvtPins2">"NONE"</constant>
@@ -1757,7 +1757,7 @@
          0.0 
          0.0 
       </constant>
-        <constant digits="0" name="benchTestCount">3.0</constant>
+        <constant digits="0" name="benchTestCount">10.0</constant>
         <constant digits="1" name="iacByTpsHoldTime" units="seconds">0.0</constant>
         <constant digits="1" name="iacByTpsDecayTime" units="seconds">0.0</constant>
         <constant name="tcu_rangeInput1">"NONE"</constant>
@@ -3482,17 +3482,17 @@ end
          7000.0 
       </constant>
         <constant cols="16" digits="1" name="veTable" rows="16" units="%">
+         49.7 49.8 49.9 50.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         49.8 49.9 50.0 50.1 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         49.9 50.0 50.1 50.2 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         50.0 50.1 50.2 50.3 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         50.1 50.2 50.3 50.4 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         50.2 50.3 50.4 50.5 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         50.3 50.4 50.5 50.6 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         50.4 50.5 50.6 50.7 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
          80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         52.0 50.0 50.0 55.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         52.0 50.0 50.0 5.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
          80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
          80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
          80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
