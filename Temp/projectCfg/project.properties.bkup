@@ -1,0 +1,10 @@
+#Project Attributes.
+#TunerStudio by EFI Analytics, Inc
+#Last Saved on: Wed Nov 26 19:47:37 GMT+04:00 2025
+#Wed Nov 26 19:47:37 GMT+04:00 2025
+dashBoardFile=/dashboard//dashboard.dash
+ecuConfigFile=rusEFI2022.05.03.mre_f4.1287487553.ini
+ecuSettings=AFR|
+projectDescription=Temporary Project for viewing msq files
+projectName=Temp
+useCommonDashboardDir=false
