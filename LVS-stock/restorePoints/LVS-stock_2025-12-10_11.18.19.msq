@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Dec 10 12:03:33 GMT+04:00 2025"/>
+<bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Wed Dec 10 11:18:19 GMT+04:00 2025"/>
 <versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20230726%4064196" nPages="1" signature="rusEFI master.2023.07.26.mre_f4.3003025436"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -383,7 +383,7 @@
 <constant name="canTxPin">"PB6"</constant>
 <constant name="canRxPin">"PB12"</constant>
 <constant name="throttlePedalUpPinMode">"DEFAULT"</constant>
-<constant digits="0" name="acIdleExtraOffset" units="%">10.0</constant>
+<constant digits="0" name="acIdleExtraOffset" units="%">15.0</constant>
 <constant digits="2" name="finalGearRatio" units="ratio">1.0</constant>
 <constant name="tcuInputSpeedSensorPin">"NONE"</constant>
 <constant digits="0" name="tcuInputSpeedSensorTeeth">1.0</constant>
@@ -738,7 +738,7 @@
 <constant name="acSwitch">"NONE"</constant>
 <constant name="vRefAdcChannel">"NONE"</constant>
 <constant digits="0" name="etbNeutralPosition" units="%">0.0</constant>
-<constant name="idleMode">"Open Loop + Closed Loop"</constant>
+<constant name="idleMode">"Open Loop"</constant>
 <constant name="isInjectionEnabled">"true"</constant>
 <constant name="isIgnitionEnabled">"true"</constant>
 <constant name="isCylinderCleanupEnabled">"true"</constant>
@@ -836,7 +836,7 @@
 <constant digits="1" name="targetVBatt" units="Volts">13.0</constant>
 <constant digits="2" name="alternatorOffAboveTps" units="%">120.0</constant>
 <constant digits="0" name="afterCrankingIACtaperDuration" units="cycles">200.0</constant>
-<constant digits="0" name="iacByTpsTaper" units="percent">10.0</constant>
+<constant digits="0" name="iacByTpsTaper" units="percent">2.0</constant>
 <constant name="auxSerialTxPin">"NONE"</constant>
 <constant name="auxSerialRxPin">"NONE"</constant>
 <constant name="LIS302DLCsPin">"NONE"</constant>
@@ -2037,22 +2037,22 @@
          120.0 
       </constant>
 <constant cols="1" digits="0" name="cltIdleRpm" rows="16" units="RPM">
-         1340.0 
-         1320.0 
-         1280.0 
-         1200.0 
-         1140.0 
+         1300.0 
+         1240.0 
+         1180.0 
+         1120.0 
          1100.0 
+         1080.0 
          1060.0 
+         1040.0 
          1020.0 
+         1000.0 
          980.0 
-         940.0 
-         880.0 
-         820.0 
-         800.0 
-         800.0 
-         800.0 
-         800.0 
+         980.0 
+         980.0 
+         980.0 
+         980.0 
+         980.0 
       </constant>
 <constant cols="1" digits="1" name="cltTimingBins" rows="8" units="C">
          -40.0 
