@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Dec 10 19:00:01 GMT+04:00 2025"/>
+    <bibliography author="TunerStudio MS Ultra 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Wed Dec 10 18:56:39 GMT+04:00 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20230726%4064196" nPages="1" signature="rusEFI master.2023.07.26.mre_f4.3003025436"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>
