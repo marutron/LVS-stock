@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-    <bibliography author="TunerStudio 3.3.01 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2025, All Rights Reserved." writeDate="Sat Dec 13 07:54:37 GMT+04:00 2025"/>
+    <bibliography author="TunerStudio 3.3.01 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2025, All Rights Reserved." writeDate="Tue Dec 16 19:18:24 GMT+04:00 2025"/>
     <versionInfo fileFormat="3.0" firmwareSignature="rusEFI master.2023.07.26.mre_f4.3003025436"/>
     <gaugeCluster antiAliasing="true" backgroundDitherColor="-8355712" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile" forceAspect="false" forceAspectHeight="9.0" forceAspectWidth="16.0">
         <dashComp type="Gauge">
-            <Value type="double">0.0</Value>
+            <Value type="double">853.0</Value>
             <Units type="String">RPM</Units>
             <Dirty type="boolean">true</Dirty>
             <Min type="double">0.0</Min>
@@ -19,7 +19,7 @@
             <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
             <DefaultMax type="double">100.0</DefaultMax>
             <DefaultMin type="double">0.0</DefaultMin>
-            <DisplayValue type="String">0</DisplayValue>
+            <DisplayValue type="String">853</DisplayValue>
             <FaceAngle type="int">360</FaceAngle>
             <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
             <FontSizeAdjustment type="int">0</FontSizeAdjustment>
@@ -29,7 +29,7 @@
             <HighCriticalVP type="ValueProvider">rpmHardLimit</HighCriticalVP>
             <HighWarning type="double">NaN</HighWarning>
             <HighWarningVP type="ValueProvider">rpmHardLimit - 500</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">1847.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
             <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">200.0</LowCritical>
@@ -45,7 +45,7 @@
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">232</ShortestSize>
-            <SmoothedValue type="double">0.0</SmoothedValue>
+            <SmoothedValue type="double">853.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
             <SweepBeginDegree type="int">300</SweepBeginDegree>
@@ -59,7 +59,7 @@
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
             <Title type="String">RPM - engine speed</Title>
-            <Value type="double">0.0</Value>
+            <Value type="double">853.0</Value>
             <Dirty type="boolean">true</Dirty>
             <OutputChannel type="String">RPMValue</OutputChannel>
             <LongClickAction type="String">null</LongClickAction>
@@ -79,7 +79,7 @@
             <EcuConfigurationName type="String"/>
         </dashComp>
         <dashComp type="Gauge">
-            <Value type="double">0.0</Value>
+            <Value type="double">853.0</Value>
             <Units type="String"/>
             <Dirty type="boolean">true</Dirty>
             <Min type="double">0.0</Min>
@@ -94,7 +94,7 @@
             <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
             <DefaultMax type="double">100.0</DefaultMax>
             <DefaultMin type="double">0.0</DefaultMin>
-            <DisplayValue type="String">0</DisplayValue>
+            <DisplayValue type="String">853</DisplayValue>
             <FaceAngle type="int">360</FaceAngle>
             <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
             <FontSizeAdjustment type="int">2</FontSizeAdjustment>
@@ -104,7 +104,7 @@
             <HighCriticalVP type="ValueProvider">rpmHardLimit</HighCriticalVP>
             <HighWarning type="double">NaN</HighWarning>
             <HighWarningVP type="ValueProvider">rpmHardLimit - 500</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">1847.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
             <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">200.0</LowCritical>
@@ -120,7 +120,7 @@
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">46</ShortestSize>
-            <SmoothedValue type="double">0.0</SmoothedValue>
+            <SmoothedValue type="double">853.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
             <SweepBeginDegree type="int">300</SweepBeginDegree>
@@ -134,7 +134,7 @@
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
             <Title type="String"/>
-            <Value type="double">0.0</Value>
+            <Value type="double">853.0</Value>
             <Dirty type="boolean">true</Dirty>
             <OutputChannel type="String">RPMValue</OutputChannel>
             <LongClickAction type="String">null</LongClickAction>
@@ -154,11 +154,11 @@
             <EcuConfigurationName type="String"/>
         </dashComp>
         <dashComp type="Gauge">
-            <Value type="double">0.0</Value>
-            <Units type="String">deg</Units>
+            <Value type="double">33.0</Value>
+            <Units type="String"/>
             <Dirty type="boolean">true</Dirty>
-            <Min type="double">-60.0</Min>
-            <Max type="double">60.0</Max>
+            <Min type="double">0.0</Min>
+            <Max type="double">100.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
             <GroupId type="int">246554875</GroupId>
@@ -167,9 +167,9 @@
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
             <BorderWidth type="int">1</BorderWidth>
             <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
-            <DefaultMax type="double">60.0</DefaultMax>
-            <DefaultMin type="double">-60.0</DefaultMin>
-            <DisplayValue type="String">0</DisplayValue>
+            <DefaultMax type="double">100.0</DefaultMax>
+            <DefaultMin type="double">0.0</DefaultMin>
+            <DisplayValue type="String">33</DisplayValue>
             <FaceAngle type="int">360</FaceAngle>
             <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
             <FontSizeAdjustment type="int">0</FontSizeAdjustment>
@@ -179,7 +179,7 @@
             <HighCriticalVP type="ValueProvider">60.0</HighCriticalVP>
             <HighWarning type="double">60.0</HighWarning>
             <HighWarningVP type="ValueProvider">60.0</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">33.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
             <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">-60.0</LowCritical>
@@ -187,15 +187,15 @@
             <LowWarning type="double">-60.0</LowWarning>
             <LowWarningVP type="ValueProvider">-60.0</LowWarningVP>
             <MajorTicks type="double">-1.0</MajorTicks>
-            <MaxVP type="ValueProvider">60.0</MaxVP>
-            <MinVP type="ValueProvider">-60.0</MinVP>
+            <MaxVP type="ValueProvider">100.0</MaxVP>
+            <MinVP type="ValueProvider">0.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</NeedleColor>
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">232</ShortestSize>
-            <SmoothedValue type="double">0.0</SmoothedValue>
+            <SmoothedValue type="double">33.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
             <SweepBeginDegree type="int">300</SweepBeginDegree>
@@ -208,10 +208,10 @@
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <Title type="String">VVT: bank 1 intake target</Title>
-            <Value type="double">0.0</Value>
+            <Title type="String">vvt: output 1</Title>
+            <Value type="double">33.0</Value>
             <Dirty type="boolean">true</Dirty>
-            <OutputChannel type="String">vvtTargets1</OutputChannel>
+            <OutputChannel type="String">vvtStatus1_output</OutputChannel>
             <LongClickAction type="String"/>
             <ShortClickAction type="String"/>
             <Id type="String"/>
@@ -219,7 +219,7 @@
             <RelativeHeight type="double">0.25</RelativeHeight>
             <RelativeWidth type="double">1.0</RelativeWidth>
             <RelativeX type="double">0.0</RelativeX>
-            <RelativeY type="double">0.2497978981406629</RelativeY>
+            <RelativeY type="double">0.25</RelativeY>
             <AntialiasingOn type="boolean">true</AntialiasingOn>
             <InvalidState type="boolean">false</InvalidState>
             <ItalicFont type="boolean">false</ItalicFont>
@@ -229,11 +229,11 @@
             <EcuConfigurationName type="String">LVS-stock</EcuConfigurationName>
         </dashComp>
         <dashComp type="Gauge">
-            <Value type="double">0.0</Value>
-            <Units type="String">deg</Units>
+            <Value type="double">33.0</Value>
+            <Units type="String"/>
             <Dirty type="boolean">true</Dirty>
-            <Min type="double">-60.0</Min>
-            <Max type="double">60.0</Max>
+            <Min type="double">0.0</Min>
+            <Max type="double">100.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
             <GroupId type="int">246554875</GroupId>
@@ -242,9 +242,9 @@
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
             <BorderWidth type="int">0</BorderWidth>
             <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
-            <DefaultMax type="double">60.0</DefaultMax>
-            <DefaultMin type="double">-60.0</DefaultMin>
-            <DisplayValue type="String">0</DisplayValue>
+            <DefaultMax type="double">100.0</DefaultMax>
+            <DefaultMin type="double">0.0</DefaultMin>
+            <DisplayValue type="String">33</DisplayValue>
             <FaceAngle type="int">360</FaceAngle>
             <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
             <FontSizeAdjustment type="int">2</FontSizeAdjustment>
@@ -254,7 +254,7 @@
             <HighCriticalVP type="ValueProvider">60.0</HighCriticalVP>
             <HighWarning type="double">60.0</HighWarning>
             <HighWarningVP type="ValueProvider">60.0</HighWarningVP>
-            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+            <HistoricalPeakValue type="double">33.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
             <LabelDigits type="int">0</LabelDigits>
             <LowCritical type="double">-60.0</LowCritical>
@@ -262,15 +262,15 @@
             <LowWarning type="double">-60.0</LowWarning>
             <LowWarningVP type="ValueProvider">-60.0</LowWarningVP>
             <MajorTicks type="double">-1.0</MajorTicks>
-            <MaxVP type="ValueProvider">60.0</MaxVP>
-            <MinVP type="ValueProvider">-60.0</MinVP>
+            <MaxVP type="ValueProvider">100.0</MaxVP>
+            <MinVP type="ValueProvider">0.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">46</ShortestSize>
-            <SmoothedValue type="double">0.0</SmoothedValue>
+            <SmoothedValue type="double">33.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
             <SweepBeginDegree type="int">300</SweepBeginDegree>
@@ -284,17 +284,17 @@
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
             <Title type="String"/>
-            <Value type="double">0.0</Value>
+            <Value type="double">33.0</Value>
             <Dirty type="boolean">true</Dirty>
-            <OutputChannel type="String">vvtTargets1</OutputChannel>
+            <OutputChannel type="String">vvtStatus1_output</OutputChannel>
             <LongClickAction type="String"/>
             <ShortClickAction type="String"/>
             <Id type="String"/>
             <Dirty type="boolean">true</Dirty>
             <RelativeHeight type="double">0.05</RelativeHeight>
             <RelativeWidth type="double">0.33</RelativeWidth>
-            <RelativeX type="double">0.6699029126213593</RelativeX>
-            <RelativeY type="double">0.3257881972514147</RelativeY>
+            <RelativeX type="double">0.6703539823008849</RelativeX>
+            <RelativeY type="double">0.32589285714285715</RelativeY>
             <AntialiasingOn type="boolean">true</AntialiasingOn>
             <InvalidState type="boolean">false</InvalidState>
             <ItalicFont type="boolean">false</ItalicFont>
@@ -369,7 +369,7 @@
             <RelativeHeight type="double">0.25</RelativeHeight>
             <RelativeWidth type="double">1.0</RelativeWidth>
             <RelativeX type="double">0.0</RelativeX>
-            <RelativeY type="double">0.5004042037186742</RelativeY>
+            <RelativeY type="double">0.5</RelativeY>
             <AntialiasingOn type="boolean">true</AntialiasingOn>
             <InvalidState type="boolean">false</InvalidState>
             <ItalicFont type="boolean">false</ItalicFont>
@@ -443,8 +443,8 @@
             <Dirty type="boolean">true</Dirty>
             <RelativeHeight type="double">0.05</RelativeHeight>
             <RelativeWidth type="double">0.33</RelativeWidth>
-            <RelativeX type="double">0.6693548387096774</RelativeX>
-            <RelativeY type="double">0.5755860953920776</RelativeY>
+            <RelativeX type="double">0.6703539823008849</RelativeX>
+            <RelativeY type="double">0.5758928571428571</RelativeY>
             <AntialiasingOn type="boolean">true</AntialiasingOn>
             <InvalidState type="boolean">false</InvalidState>
             <ItalicFont type="boolean">false</ItalicFont>
@@ -454,11 +454,11 @@
             <EcuConfigurationName type="String">LVS-stock</EcuConfigurationName>
         </dashComp>
         <dashComp type="Gauge">
-            <Value type="double">19.111</Value>
-            <Units type="String"/>
+            <Value type="double">0.0</Value>
+            <Units type="String">deg</Units>
             <Dirty type="boolean">true</Dirty>
-            <Min type="double">10.0</Min>
-            <Max type="double">19.4</Max>
+            <Min type="double">-60.0</Min>
+            <Max type="double">60.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
             <GroupId type="int">1569485075</GroupId>
@@ -467,51 +467,51 @@
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
             <BorderWidth type="int">1</BorderWidth>
             <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
-            <DefaultMax type="double">19.4</DefaultMax>
-            <DefaultMin type="double">10.0</DefaultMin>
-            <DisplayValue type="String">19.11</DisplayValue>
+            <DefaultMax type="double">60.0</DefaultMax>
+            <DefaultMin type="double">-60.0</DefaultMin>
+            <DisplayValue type="String">0.0</DisplayValue>
             <FaceAngle type="int">360</FaceAngle>
             <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
             <FontSizeAdjustment type="int">0</FontSizeAdjustment>
             <GaugePainter type="GaugePainter">Line Graph</GaugePainter>
             <GaugeStyle type="String">Line Graph</GaugeStyle>
-            <HighCritical type="double">16.0</HighCritical>
-            <HighCriticalVP type="ValueProvider">16.0</HighCriticalVP>
-            <HighWarning type="double">15.0</HighWarning>
-            <HighWarningVP type="ValueProvider">15.0</HighWarningVP>
-            <HistoricalPeakValue type="double">19.167</HistoricalPeakValue>
+            <HighCritical type="double">60.0</HighCritical>
+            <HighCriticalVP type="ValueProvider">60.0</HighCriticalVP>
+            <HighWarning type="double">60.0</HighWarning>
+            <HighWarningVP type="ValueProvider">60.0</HighWarningVP>
+            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
-            <LabelDigits type="int">2</LabelDigits>
-            <LowCritical type="double">12.0</LowCritical>
-            <LowCriticalVP type="ValueProvider">12.0</LowCriticalVP>
-            <LowWarning type="double">13.0</LowWarning>
-            <LowWarningVP type="ValueProvider">13.0</LowWarningVP>
+            <LabelDigits type="int">1</LabelDigits>
+            <LowCritical type="double">-60.0</LowCritical>
+            <LowCriticalVP type="ValueProvider">-60.0</LowCriticalVP>
+            <LowWarning type="double">-60.0</LowWarning>
+            <LowWarningVP type="ValueProvider">-60.0</LowWarningVP>
             <MajorTicks type="double">-1.0</MajorTicks>
-            <MaxVP type="ValueProvider">19.4</MaxVP>
-            <MinVP type="ValueProvider">10.0</MinVP>
+            <MaxVP type="ValueProvider">60.0</MaxVP>
+            <MinVP type="ValueProvider">-60.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="0" green="255" red="0" type="Color">-16711936</NeedleColor>
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">232</ShortestSize>
-            <SmoothedValue type="double">19.111</SmoothedValue>
+            <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
             <SweepBeginDegree type="int">300</SweepBeginDegree>
             <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-            <ValueDigits type="int">2</ValueDigits>
-            <ValueDigitsVP type="ValueProvider">2.0</ValueDigitsVP>
+            <ValueDigits type="int">1</ValueDigits>
+            <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
             <WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
             <CounterClockwise type="boolean">false</CounterClockwise>
             <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
             <PegLimits type="boolean">true</PegLimits>
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
-            <Title type="String">Air/Fuel Ratio</Title>
-            <Value type="double">19.111</Value>
+            <Title type="String">VVT: bank 1 intake</Title>
+            <Value type="double">0.0</Value>
             <Dirty type="boolean">true</Dirty>
-            <OutputChannel type="String">AFRValue</OutputChannel>
+            <OutputChannel type="String">vvtPositionB1I</OutputChannel>
             <LongClickAction type="String"/>
             <ShortClickAction type="String"/>
             <Id type="String"/>
@@ -519,7 +519,7 @@
             <RelativeHeight type="double">0.25</RelativeHeight>
             <RelativeWidth type="double">1.0</RelativeWidth>
             <RelativeX type="double">0.0</RelativeX>
-            <RelativeY type="double">0.7502021018593371</RelativeY>
+            <RelativeY type="double">0.75</RelativeY>
             <AntialiasingOn type="boolean">true</AntialiasingOn>
             <InvalidState type="boolean">false</InvalidState>
             <ItalicFont type="boolean">false</ItalicFont>
@@ -529,11 +529,11 @@
             <EcuConfigurationName type="String">LVS-stock</EcuConfigurationName>
         </dashComp>
         <dashComp type="Gauge">
-            <Value type="double">19.111</Value>
-            <Units type="String"/>
+            <Value type="double">0.0</Value>
+            <Units type="String">deg</Units>
             <Dirty type="boolean">true</Dirty>
-            <Min type="double">10.0</Min>
-            <Max type="double">19.4</Max>
+            <Min type="double">-60.0</Min>
+            <Max type="double">60.0</Max>
             <MustPaint type="boolean">true</MustPaint>
             <RunDemo type="boolean">false</RunDemo>
             <GroupId type="int">1569485075</GroupId>
@@ -542,41 +542,41 @@
             <BackgroundImageFileName type="String">null</BackgroundImageFileName>
             <BorderWidth type="int">0</BorderWidth>
             <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
-            <DefaultMax type="double">19.4</DefaultMax>
-            <DefaultMin type="double">10.0</DefaultMin>
-            <DisplayValue type="String">19.11</DisplayValue>
+            <DefaultMax type="double">60.0</DefaultMax>
+            <DefaultMin type="double">-60.0</DefaultMin>
+            <DisplayValue type="String">0.0</DisplayValue>
             <FaceAngle type="int">360</FaceAngle>
             <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
             <FontSizeAdjustment type="int">2</FontSizeAdjustment>
             <GaugePainter type="GaugePainter">Basic Readout</GaugePainter>
             <GaugeStyle type="String">Basic Readout</GaugeStyle>
-            <HighCritical type="double">16.0</HighCritical>
-            <HighCriticalVP type="ValueProvider">16.0</HighCriticalVP>
-            <HighWarning type="double">15.0</HighWarning>
-            <HighWarningVP type="ValueProvider">15.0</HighWarningVP>
-            <HistoricalPeakValue type="double">19.167</HistoricalPeakValue>
+            <HighCritical type="double">60.0</HighCritical>
+            <HighCriticalVP type="ValueProvider">60.0</HighCriticalVP>
+            <HighWarning type="double">60.0</HighWarning>
+            <HighWarningVP type="ValueProvider">60.0</HighWarningVP>
+            <HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
             <HistoryDelay type="int">15000</HistoryDelay>
-            <LabelDigits type="int">2</LabelDigits>
-            <LowCritical type="double">12.0</LowCritical>
-            <LowCriticalVP type="ValueProvider">12.0</LowCriticalVP>
-            <LowWarning type="double">13.0</LowWarning>
-            <LowWarningVP type="ValueProvider">13.0</LowWarningVP>
+            <LabelDigits type="int">1</LabelDigits>
+            <LowCritical type="double">-60.0</LowCritical>
+            <LowCriticalVP type="ValueProvider">-60.0</LowCriticalVP>
+            <LowWarning type="double">-60.0</LowWarning>
+            <LowWarningVP type="ValueProvider">-60.0</LowWarningVP>
             <MajorTicks type="double">-1.0</MajorTicks>
-            <MaxVP type="ValueProvider">19.4</MaxVP>
-            <MinVP type="ValueProvider">10.0</MinVP>
+            <MaxVP type="ValueProvider">60.0</MaxVP>
+            <MinVP type="ValueProvider">-60.0</MinVP>
             <MinorTicks type="double">-1.0</MinorTicks>
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
             <NeedleImageFileName type="String">null</NeedleImageFileName>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
             <ShortestSize type="int">46</ShortestSize>
-            <SmoothedValue type="double">19.111</SmoothedValue>
+            <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
             <SweepBeginDegree type="int">300</SweepBeginDegree>
             <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-            <ValueDigits type="int">2</ValueDigits>
-            <ValueDigitsVP type="ValueProvider">2.0</ValueDigitsVP>
+            <ValueDigits type="int">1</ValueDigits>
+            <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
             <WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
             <CounterClockwise type="boolean">false</CounterClockwise>
             <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
@@ -584,17 +584,17 @@
             <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
             <ShowHistory type="boolean">true</ShowHistory>
             <Title type="String"/>
-            <Value type="double">19.111</Value>
+            <Value type="double">0.0</Value>
             <Dirty type="boolean">true</Dirty>
-            <OutputChannel type="String">AFRValue</OutputChannel>
+            <OutputChannel type="String">vvtPositionB1I</OutputChannel>
             <LongClickAction type="String"/>
             <ShortClickAction type="String"/>
             <Id type="String"/>
             <Dirty type="boolean">true</Dirty>
             <RelativeHeight type="double">0.05</RelativeHeight>
             <RelativeWidth type="double">0.33</RelativeWidth>
-            <RelativeX type="double">0.6693548387096774</RelativeX>
-            <RelativeY type="double">0.8253839935327405</RelativeY>
+            <RelativeX type="double">0.6703539823008849</RelativeX>
+            <RelativeY type="double">0.8258928571428571</RelativeY>
             <AntialiasingOn type="boolean">true</AntialiasingOn>
             <InvalidState type="boolean">false</InvalidState>
             <ItalicFont type="boolean">false</ItalicFont>
